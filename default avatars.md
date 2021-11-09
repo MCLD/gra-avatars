@@ -1,85 +1,47 @@
-###  Avatar Layers (top level)
+# default avatars.json
 
-- **Name** *required*
-	string
-	Name assigned to the layer (mission control only)
-	
-- **Position** *required*
-	int
-	Layer order (z-index) of the avatar parts when combined, 
-	Must be unique
-	
-- **CanBeEmpty**
-	True/False
-	Sets whether an item must be present for the layer
+The `default avatars.json` file describes the configuration of avatar layers and how [The Great Reading Adventure](https://github.com/MCLD/greatreadingadventure) software imports the files present in the ZIP file containing avatar image elements.
 
-- **GroupId** *required*
-	int
-	Grouping to display the layer selector in
-	Combination of GroupId/SortOrder must be unique
+The JSON file contains an array of Avatar Layer objects.
 
-- **SortOrder** *required*
-	int
-	Order within its group to display the layer selector
-	Combination of GroupId/SortOrder must be unique
-	
-- **DefaultLayer**
-	True/False
-	Sets the layer to be selected by default when loading the avatar page
-	Only one layer can be the default
+## Avatar Layer
 
-- **ShowItemSelector**
-	True/False
-	Sets whether the item selector should be shown for the layer
-	Should only be true if the layer contains multiple items
-	
-- **ShowColorSelector**
-	True/False
-	Sets whether the color selector should be shown for the layer
-	Should only be true if the layer contains multiple colors
-	
-- **ZoomScale** *required*
-	decimal
-	Amount to zoom when viewing avatar selector on a mobile device
-	Values > 1 zooms in, values < 1 zoom out
-	
-- **ZoomXOffset**
-	int
-	Amount to shift the y-asix when viewing avatar selector on a mobile device
-	Positive values shift the view down, negative values shift the view up
-	
--  **Texts** (*required for each language*)
+- **Name** - _required_ - string - Name assigned to the layer (for management in Mission Control, not visible to participants)
 
-	- **Language** *required*
-		string
-		IETF BCP 47 language tag
-		
-	- **Name** *required*
-		string
-		Name to be displayed for the layer in the associated language
+- **Position** - _required_ - int - Layer order (z-index) of the avatar parts when combined, must be unique per layer
 
-- **AvatarColors** (*required if layer uses colors*)
+- **CanBeEmpty** - True/False - Sets whether an item must be present for the layer
 
-	- **Colors** *required*
-		string
-		Hexcode to display in the color selector
+- **GroupId** - _required_ - int - Grouping to display the layer selector in, combination of GroupId/SortOrder must be unique
 
-	- **SortOrder** *required*
-		int
-		Order to display the color for the layer
-		Must be unique within the layer
+- **SortOrder** - _required_ - int - Order within its group to display the layer selector, combination of GroupId/SortOrder must be unique
 
-- **AvatarItems** *required*
+- **DefaultLayer** - True/False - Sets the layer to be selected by default when loading the avatar page, only one layer can be the default
 
-	- **Name** *required*
-		string
-		Name assigned to the item (mission control only)
+- **ShowItemSelector** - True/False - Sets whether the item selector should be shown for the layer, only true if the layer contains multiple items
 
-	- **SortOrder** *required*
-		int
-		Order to display the item for the layer
-		Must be unique within the layer
-		
-	- **Unlockable**
-		True/False
-		True hides the item from the selector unless it's unlocked for a user through a trigger
+- **ShowColorSelector** - True/False - Sets whether the color selector should be shown for the layer, only true if the layer contains multiple colors
+
+- **ZoomScale** - _required_ - decimal - Amount to zoom when viewing avatar selector on a mobile device: values > 1 zooms in, values < 1 zoom out
+
+- **ZoomXOffset** - int - Amount to shift the y-asix when viewing avatar selector on a mobile device: positive values shift the view down, negative values shift the view up
+
+- **Texts** - _required for each language_ - array
+
+  - **Language** - _required_ - string - IETF BCP 47 language tag
+
+  - **Name** - _required_ - string - Name to be displayed for the layer in the associated language
+
+- **AvatarColors** - _required if layer uses colors_ - array
+
+  - **Colors** - _required_ - string - Hexcode to display in the color selector
+
+  - **SortOrder** _required_ - int - Order to display the color for the layer, must be unique within the layer
+
+- **AvatarItems** - _required_ - array
+
+  - **Name** - _required_ - string - Name assigned to the item (for management in Mission Control, not visible to participants)
+
+  - **SortOrder** - _required_ - int - Order to display the item for the layer - must be unique within the layer
+
+  - **Unlockable** - True/False - True hides the item from the selector unless it's unlocked for a user through a trigger
