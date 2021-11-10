@@ -2,11 +2,11 @@
 
 The `default avatars.json` file describes the configuration of avatar layers and how [The Great Reading Adventure](https://github.com/MCLD/greatreadingadventure) software imports the files present in the ZIP file containing avatar image elements.
 
-The JSON file contains an `array` of Avatar Layer objects.
+The JSON file contains an `array` of Avatar Layer objects. Every Avatar Layer object requires a folder in the same directory as the JSON file. Inside each of those folder needs to be a folder for every `AvatarItem` associated with the layer. If the layer contains `AvatarColors` each item folder will need an image for every color.
 
 ## Avatar Layer
 
-- **Name** - _required_ - `string` - Name assigned to the layer (for management in Mission Control, not visible to participants)
+- **Name** - _required_ - `string` - Name assigned to the layer (for management in Mission Control, not visible to participants), the folder associated with the layer needs the same name
 
 - **Position** - _required_ - `int` - Layer order (z-index) of the avatar parts when combined, must be unique per layer
 
@@ -34,13 +34,13 @@ The JSON file contains an `array` of Avatar Layer objects.
 
 - **AvatarColors** - _required if layer uses colors_ - `array`
 
-  - **Colors** - _required_ - `string` - Hexcode to display in the color selector
+  - **Color** - _required_ - `string` - Hexcode to display in the color selector, the image corresponding with the color needs to be named the same
 
   - **SortOrder** _required_ - `int` - Order to display the color for the layer, must be unique within the layer
 
 - **AvatarItems** - _required_ - `array`
 
-  - **Name** - _required_ - `string` - Name assigned to the item (for management in Mission Control, not visible to participants)
+  - **Name** - _required_ - `string` - Name assigned to the item (for management in Mission Control, not visible to participants), the folder associated with the item needs the same name
 
   - **SortOrder** - _required_ - `int` - Order to display the item for the layer - must be unique within the layer
 
