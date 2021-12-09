@@ -12,7 +12,7 @@ When using a release of The Great Reading Adventure, importing the default avata
 
 ## Using custom avatars
 
-The default avatar package includes over 5,500 elements. If the desire is to use custom avatars in place of the default avatars, the software can accept and layer 300x500 pixel `.PNG` files. For information on how to configure a `.ZIP` archive so it can be imported into the GRA, see the documentation in <default avatars.md>.
+The default avatar package includes over 5,500 elements. If the desire is to use custom avatars in place of the default avatars, the software can accept and layer 300x500 pixel `.PNG` files. For information on how to configure a `.ZIP` archive so it can be imported into the GRA, see the documentation in [default avatars.md](default avatars.md).
 
 The default GRA stylesheet includes cropping based on the way the default avatars display, for example: on mobile devices the only part of the avatar which shows is the head and head accessories. If you are using custom images and want to override the default cropping, add the following to `content/site1/styles/site.css` file in the shared directory:
 
