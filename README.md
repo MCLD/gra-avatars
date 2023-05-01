@@ -6,6 +6,10 @@ The majority of the avatar artwork originated in [Glitch the Game](https://www.g
 
 Additional items are added (usually to support the [Maricopa County Reads](https://maricopacountyreads.org/) summer reading program managed by the [Maricopa County Library District](https://mcldaz.org/) who manages this package and The Great Reading Adventure software.)
 
+## Accessibility branch
+
+**Note:** This branch includes two layers to add accessibility items - Mobility and Prosthetics. In order to successfully use these changes with the avatar stage for social sharing, you must have a white area on the stage for the avatar to be placed over. The sample backgrounds distributed in this repository will not work for that properly.
+
 ## Usage
 
 When using a release of The Great Reading Adventure, importing the default avatars in Mission Control will import the avatars from this collection.

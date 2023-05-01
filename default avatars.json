@@ -280,7 +280,7 @@
   },
   {
     "Name": "Hair",
-    "Position": "4",
+    "Position": "5",
     "CanBeEmpty": "True",
     "GroupId": "0",
     "SortOrder": "1",
@@ -1151,7 +1151,7 @@
   },
   {
     "Name": "Hat",
-    "Position": "11",
+    "Position": "13",
     "CanBeEmpty": "True",
     "GroupId": "1",
     "SortOrder": "0",
@@ -3023,52 +3023,52 @@
         "SortOrder": "17",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "SharkHat_Blue",
         "SortOrder": "0",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "SharkHat_Gold",
         "SortOrder": "1",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "SharkHat_Gray",
         "SortOrder": "2",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "SharkHat_Green",
         "SortOrder": "3",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "SharkHat_Orange",
         "SortOrder": "4",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "SharkHat_Pink",
         "SortOrder": "5",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "SharkHat_Purple",
         "SortOrder": "6",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "SharkHat_Red",
         "SortOrder": "7",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "SharkHat_SeaGreen",
         "SortOrder": "8",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "SharkHat_Yellow",
         "SortOrder": "9",
         "Unlockable": "False"
@@ -3077,7 +3077,7 @@
   },
   {
     "Name": "Glasses",
-    "Position": "3",
+    "Position": "4",
     "CanBeEmpty": "True",
     "GroupId": "1",
     "SortOrder": "1",
@@ -3552,11 +3552,98 @@
     ]
   },
   {
-    "Name": "Coat",
-    "Position": "10",
+    "Name": "Prosthetics",
+    "Position": "3",
     "CanBeEmpty": "True",
     "GroupId": "1",
     "SortOrder": "2",
+    "DefaultLayer": "False",
+    "ShowItemSelector": "True",
+    "ShowColorSelector": "False",
+    "ZoomScale": "3.50",
+    "ZoomYOffset": "-150",
+    "Texts": [
+      {
+        "Language": "en-US",
+        "Name": "Prosthetics",
+        "RemoveLabel": "No Prosthetics"
+      },
+      {
+        "Language": "es-US",
+        "Name": "Protesis",
+        "RemoveLabel": "Sin protesis"
+      }
+    ],
+    "AvatarItems": [
+      {
+        "Name": "arm",
+        "SortOrder": "1",
+        "Unlockable": "False"
+      },
+      {
+        "Name": "leg",
+        "SortOrder": "2",
+        "Unlockable": "False"
+      }
+    ]
+  },
+  {
+    "Name": "Mobility",
+    "Position": "12",
+    "CanBeEmpty": "True",
+    "GroupId": "1",
+    "SortOrder": "8",
+    "DefaultLayer": "False",
+    "ShowItemSelector": "True",
+    "ShowColorSelector": "False",
+    "ZoomScale": "2.40",
+    "ZoomYOffset": "-100",
+    "Texts": [
+      {
+        "Language": "en-US",
+        "Name": "Mobility",
+        "RemoveLabel": "No Mobility"
+      },
+      {
+        "Language": "es-US",
+        "Name": "Movilidad",
+        "RemoveLabel": "Sin movilidad"
+      }
+    ],
+    "AvatarItems": [
+      {
+        "Name": "cane-1",
+        "SortOrder": "1",
+        "Unlockable": "False"
+      },
+      {
+        "Name": "cane-2",
+        "SortOrder": "2",
+        "Unlockable": "False"
+      },
+      {
+        "Name": "cane-3",
+        "SortOrder": "3",
+        "Unlockable": "False"
+      },
+      {
+        "Name": "chair",
+        "SortOrder": "4",
+        "Unlockable": "False"
+      },
+      {
+        "Name": "walker",
+        "SortOrder": "5",
+        "Unlockable": "False"
+      }
+    ]
+  },
+  {
+    "Name": "Coat",
+    "Position": "11",
+    "CanBeEmpty": "True",
+    "GroupId": "1",
+    "SortOrder": "3",
     "DefaultLayer": "False",
     "ShowItemSelector": "True",
     "ShowColorSelector": "False",
@@ -4775,114 +4862,114 @@
         "SortOrder": "26",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "Innertube_Blue",
         "SortOrder": "0",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "Innertube_Gold",
         "SortOrder": "1",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "Innertube_Gray",
         "SortOrder": "2",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "Innertube_Green",
         "SortOrder": "3",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "Innertube_Orange",
         "SortOrder": "4",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "Innertube_Pink",
         "SortOrder": "5",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "Innertube_Purple",
         "SortOrder": "6",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "Innertube_Red",
         "SortOrder": "7",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "Innertube_SeaGreen",
         "SortOrder": "8",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "Innertube_Yellow",
         "SortOrder": "9",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "OctoJacket_Blue",
         "SortOrder": "10",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "OctoJacket_Gold",
         "SortOrder": "11",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "OctoJacket_Gray",
         "SortOrder": "12",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "OctoJacket_Green",
         "SortOrder": "13",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "OctoJacket_Orange",
         "SortOrder": "14",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "OctoJacket_Pink",
         "SortOrder": "15",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "OctoJacket_Purple",
         "SortOrder": "16",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "OctoJacket_Red",
         "SortOrder": "17",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "OctoJacket_SeaGreen",
         "SortOrder": "18",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "OctoJacket_Yellow",
         "SortOrder": "19",
         "Unlockable": "False"
-      },
+      }
     ]
   },
   {
     "Name": "Dress",
-    "Position": "9",
+    "Position": "10",
     "CanBeEmpty": "True",
     "GroupId": "1",
-    "SortOrder": "3",
+    "SortOrder": "4",
     "DefaultLayer": "False",
     "ShowItemSelector": "True",
     "ShowColorSelector": "False",
@@ -5830,10 +5917,10 @@
   },
   {
     "Name": "Shirt",
-    "Position": "8",
+    "Position": "9",
     "CanBeEmpty": "True",
     "GroupId": "1",
-    "SortOrder": "4",
+    "SortOrder": "5",
     "DefaultLayer": "False",
     "ShowItemSelector": "True",
     "ShowColorSelector": "False",
@@ -7406,10 +7493,10 @@
   },
   {
     "Name": "Skirt",
-    "Position": "7",
+    "Position": "8",
     "CanBeEmpty": "True",
     "GroupId": "1",
-    "SortOrder": "5",
+    "SortOrder": "6",
     "DefaultLayer": "False",
     "ShowItemSelector": "True",
     "ShowColorSelector": "False",
@@ -7717,10 +7804,10 @@
   },
   {
     "Name": "Pants",
-    "Position": "6",
+    "Position": "7",
     "CanBeEmpty": "True",
     "GroupId": "1",
-    "SortOrder": "6",
+    "SortOrder": "7",
     "DefaultLayer": "False",
     "ShowItemSelector": "True",
     "ShowColorSelector": "False",
@@ -8923,10 +9010,10 @@
   },
   {
     "Name": "Shoes",
-    "Position": "5",
+    "Position": "6",
     "CanBeEmpty": "True",
     "GroupId": "1",
-    "SortOrder": "7",
+    "SortOrder": "9",
     "DefaultLayer": "False",
     "ShowItemSelector": "True",
     "ShowColorSelector": "False",
@@ -9790,52 +9877,52 @@
         "SortOrder": "178",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "Flippers_Blue",
         "SortOrder": "0",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "Flippers_Gold",
         "SortOrder": "1",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "Flippers_Gray",
         "SortOrder": "2",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "Flippers_Green",
         "SortOrder": "3",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "Flippers_Orange",
         "SortOrder": "4",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "Flippers_Pink",
         "SortOrder": "5",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "Flippers_Purple",
         "SortOrder": "6",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "Flippers_Red",
         "SortOrder": "7",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "Flippers_SeaGreen",
         "SortOrder": "8",
         "Unlockable": "False"
       },
-	  {
+      {
         "Name": "Flippers_Yellow",
         "SortOrder": "9",
         "Unlockable": "False"
